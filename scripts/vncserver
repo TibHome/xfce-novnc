@@ -1,0 +1,2 @@
+sudo sed -i "s#<title>noVNC</title>#<title>My desktop</title>#g" /opt/noVNC/vnc_lite.html
+/usr/bin/vncserver :99 2>&1 | sed  "s/^/[Xtigervnc ] /"
