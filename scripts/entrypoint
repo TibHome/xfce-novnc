@@ -1,0 +1,5 @@
+#!/bin/bash
+bash /scripts/vncserver &
+sleep 5
+sudo -u alpine bash /scripts/inituser
+bash /scripts/novnc
