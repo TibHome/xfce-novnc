@@ -19,7 +19,10 @@ docker build -t tibhome/xfce-novnc:main .
 To run the container, execute:
 
 ```sh
-docker run -d -p 6080:6080 --name xfce-novnc tibhome/xfce-novnc:main
+docker run -d \
+           -p 6080:6080 \
+           --name xfce-novnc \
+           tibhome/xfce-novnc:main
 ```
 
 ## Access the noVNC Interface
